@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="title">"The Pups"</h1>
       {featPupId && (
         <div>
           <h2>{featuredPup.name}</h2>
